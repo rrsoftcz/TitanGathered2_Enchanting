@@ -1,0 +1,17 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+  <Script file="TitanGathered2_Enchanting.en.lua"/>
+  <Script file="TitanGathered2_Enchanting.lua"/>
+
+	<Frame name="TitanGathered2_EnchantingFrame">
+		<Scripts>
+			<OnLoad>
+				TitanGathered2_Enchanting.Button_OnLoad(self);
+			</OnLoad>
+			<OnEvent>
+				TitanGathered2_Enchanting.Button_OnEvent(self, event, ...);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>
